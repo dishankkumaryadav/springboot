@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: "file:///C:/Users/disha/Desktop/eCommerce/configserver/src/main/resources/config"
+#    bus:
+#      enabled: true
+#    stream:
+#      rabbit:
+#        bindings:
+#          springCloudBusInput:
+#            consumer:
+#              # This tells Rabbit to actively create the infrastructure
+#              auto-bind-dlq: true
+#              declare-exchange: true
+#              bind-queue: true
+      # This forces the creation of a stable queue
+#      bindings:
+#        springCloudBusInput:
+#          destination: springCloudBus
+#          group: configserver-group
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8888

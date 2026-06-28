@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="UserApplication" type="Application" factoryName="Application">
+    <option name="envFilePaths">
+      <option value="$PROJECT_DIR$/user/.env" />
+    </option>
+    <option name="MAIN_CLASS_NAME" value="com.ecommerce.user.UserApplication" />
+    <module name="user" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

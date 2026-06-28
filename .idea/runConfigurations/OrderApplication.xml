@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="OrderApplication" type="Application" factoryName="Application">
+    <option name="envFilePaths">
+      <option value="$PROJECT_DIR$/order/.env" />
+    </option>
+    <option name="MAIN_CLASS_NAME" value="com.ecommerce.order.OrderApplication" />
+    <module name="order" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/order" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

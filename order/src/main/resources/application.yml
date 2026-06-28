@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: order-service
+  config:
+    import: optional:configserver:http://localhost:8888
+
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/order?options=-c%20TimeZone=Asia/Kolkata
+#    username: root
+#    password: '0570'
+#  jpa:
+#    database: POSTGRESQL
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+##  h2:
+##    console:
+##      enabled: true
+##  datasource:
+##    url: jdbc:h2:mem:test
+##  jpa:
+##    show-sql: true
+##    hibernate:
+##      ddl-auto: create
+#
+#server:
+#  port: 8083
